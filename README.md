@@ -22,16 +22,21 @@ End the program
 
 import numpy as np
 
-A= np.array([[1,3],[2,5]])
+A = np.array([[5, -3, -10],
+              [2, 2, -3],
+              [-3, -1, 5]])
 
-B= np.array([5,-3])
+B = np.array([-9, 4, -1])
 
-result=np.linalg.solve(A,B)
+X = np.linalg.solve(A, B)
 
-print(result)
+x, y, z = X
+
+print(X)
 
 ## Output:
-![Screenshot 2025-03-13 140751](https://github.com/user-attachments/assets/62a9f307-71bf-40d2-b819-18af6528f613)
+
+![Screenshot 2025-03-21 210447](https://github.com/user-attachments/assets/edc5696e-07e9-494a-bbcf-4cff04406a6d)
 
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
