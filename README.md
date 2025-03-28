@@ -29,7 +29,6 @@ print(result)
 
 
 
-print(X)
 
 ## Output:
 
